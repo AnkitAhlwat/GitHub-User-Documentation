@@ -1,6 +1,6 @@
 # Working with Git and managing code on GitHub
 
-Git is a opened source version control system used alongside github. This section will help you work with Git and manage your code on GitHub. You will learn the most commonly used Git commands and when to use them.
+Git is a opened source version control system used alongside GitHub. This section will help you work with Git and manage your code on GitHub. You will learn the most commonly used Git commands and when to use them.
 
 ## 1️⃣ Install and configure Git
 
