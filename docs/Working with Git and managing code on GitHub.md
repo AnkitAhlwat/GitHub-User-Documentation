@@ -101,9 +101,10 @@ git log
 ## 🔟 Undo or modify commits
 
 - To undo or modify commits, use commands like
- ```git 
- revert`, `git reset`, or `git rebase
- ```
+
+```git
+revert`, `git reset`, or `git rebase
+```
 
 &nbsp;
 
