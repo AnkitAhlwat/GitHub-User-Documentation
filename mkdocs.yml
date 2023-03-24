@@ -2,13 +2,16 @@ site_name: Github User Documentation
 
 theme:
   name: material
+  features: content.code.copy
+
+
 
   palette:
 
  # Light mode
     - media: "(prefers-color-scheme: light)"
       scheme: default
-      primary: blue grey
+      primary: red
       accent: deep purple
       toggle:
         icon: material/weather-sunny
@@ -17,8 +20,26 @@ theme:
     # Dark mode
     - media: "(prefers-color-scheme: dark)"
       scheme: slate
-      primary: red
+      primary: blue
       accent: red
       toggle:
         icon: material/weather-night
         name: Switch to light mode
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
+  - attr_list
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+
+
