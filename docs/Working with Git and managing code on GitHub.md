@@ -52,69 +52,84 @@ By default the clone command will save the repository in a local folder on your 
     git checkout <branch_name>
     ```
 
-## 4️⃣ Stage and commit changes
+##  Stage and commit changes
 
-- Before pushing your changes you must first stage them. This is useful as you can specify which files you wish to commit. The . syntax includes all changes.
+Next we will make a change to the code in our cloned repository. In order for these changes to be reflected on github we have to "push them". 
 
-- Stage the changes:
+ Before pushing your changes you must first stage them. This is useful as you can specify which files you wish to commit. The "." syntax includes all changes.
 
-```git
-git add .
-```
+1. Stage the changes:
+
+    ```git
+    git add .
+    ```
 
 - Commit the changes:
 
-```git
-git commit -m "Your descriptive commit message"
-```
+    ```git
+    git commit -m "Your descriptive commit message"
+    ```
 
-## 5️⃣ Write commit message
+## Writing commit messages
 
-- Write clear, concise, and descriptive commit messages that summarize the changes made in the commit.
+Write clear, concise, and descriptive commit messages that summarize the changes made in the commit.
 
 !!! warning "Warning"
 Make sure your commit message begins with a imperative verb. This is considered best practice as it allows for others to quickly understand the purpose of your commit.
 
-## 6️⃣ Pull remote changes
+## Push changes remotely
 
-- To update your local branch with the latest remote changes, run:
+Now that we have staged the changes we need to push them.
 
-```git
-git pull
-```
+1. Push your changes to the remote repository, run:
 
-## 7️⃣ Resolve merge conflicts
+    ```git
+    git push
+    ```
 
-- Merge conflicts occur when multiple people alter the same lines of code in a repository and then attempt to merge these changes together.
-- When you encounter conflicts, edit the affected files to resolve the issues.
-- Stage and commit the resolved changes.
+    Now all changes to your repository made locally will be reflected on Github. 
+
+##  Pull remote changes
+
+When collaborators on your project push changes to Github you will have to pull their changes to make sure you have the most up to date code. 
+
+1. Update your local branch with the latest remote changes, run:
+
+    ```git
+    git pull
+    ```
+Unless you had someone else make a change to your cloned repository nothing will change because there is nothing to pull. Most IDE's will create a popup that says "all files are up to date" if this is the case.
+
+## Resolve merge conflicts
+
+Merge conflicts occur when multiple people alter the same lines of code in a repository and then attempt to merge these changes together.
+When you encounter conflicts, edit the affected files to resolve the issues.
+Stage and commit the resolved changes.
 
 !!! tip "Tip"
 Make sure to always pull any changes before beginning to work on a codebase. This will reduce the likelihood of merge conflicts occurring.
 
-## 8️⃣ Push changes remotely
 
-- To push your changes to the remote repository, run:
 
-```git
-git push
-```
+## Navigate commit history
 
-## 9️⃣ Navigate commit history
+It is often necessary to view commit history in order to know what code has been changed.
 
-- To view the commit history, run:
+1. View the commit history, run:
 
-```git
-git log
-```
+    ```git
+    git log
+    ```
 
-## 🔟 Undo or modify commits
+## Undo or modify commits
 
-- To undo or modify commits, use commands like
+If you make a mistake in your commit it is possible to undo it. The simplest way to do this is by using the command git revert. This will create a new commit which is the opposite of an existing commit. To specify which commit you wish to undo you need the id of the commit. The id can be viewed by using the git log command from the previous section.
 
-```git
-revert`, `git reset`, or `git rebase
-```
+1. Undo or modify commits, use commands like
+
+    ```git
+    git reset <commit_id>
+    ```
 
 &nbsp;
 
