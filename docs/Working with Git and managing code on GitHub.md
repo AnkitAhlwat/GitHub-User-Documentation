@@ -2,6 +2,9 @@
 
 Git is a opened source version control system used alongside GitHub. This section will help you work with Git and manage your code on GitHub. You will learn the most commonly used Git commands and when to use them.
 
+!!! warning "Warning"
+All commands in this section are run in the terminal window. Make sure you are in your project repository when running any commands. You can use CD to change directories.
+
 ## Install and configure Git
 
 1. Download and install Git from the [**official website**](https://git-scm.com/downloads).
@@ -125,7 +128,7 @@ It is often necessary to view commit history in order to know what code has been
 
 If you make a mistake in your commit it is possible to undo it. The simplest way to do this is by using the command git revert. This will create a new commit which is the opposite of an existing commit. To specify which commit you wish to undo you need the id of the commit. The id can be viewed by using the git log command from the previous section.
 
-1. Undo or modify commits, use commands like
+1. Undo or modify commits, run:
 
     ```git
     git reset <commit_id>
