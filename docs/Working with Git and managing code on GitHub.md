@@ -13,7 +13,7 @@ Git is a opened source version control system used alongside GitHub. This sectio
     ```
 
 !!! tip "Tip"
-Make sure to replace "Your Name" and "your.email@example.com" with your actual name and email address. This ensures that your github looks professional and it's easy for others to find your work.
+Make sure to replace "Your Name" and "your.email@example.com" with your actual name and email address. This ensures that your github looks professional and it is easy for others to find your work.
 
 ## Clone a repository locally
 
