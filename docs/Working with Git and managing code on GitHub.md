@@ -2,45 +2,55 @@
 
 Git is a opened source version control system used alongside GitHub. This section will help you work with Git and manage your code on GitHub. You will learn the most commonly used Git commands and when to use them.
 
-## 1️⃣ Install and configure Git
+## Install and configure Git
 
-- Download and install Git from the [**official website**](https://git-scm.com/downloads).
+1. Download and install Git from the [**official website**](https://git-scm.com/downloads).
 - Configure Git with your username and email using the terminal:
 
-```git
-git config --global user.name "Your Name"
-git config --global user.email "your.email@example.com"
-```
+    ```git
+    git config --global user.name "Your Name"
+    git config --global user.email "your.email@example.com"
+    ```
 
 !!! tip "Tip"
-Make sure to replace "Your Name" and "your.email@example.com" with your actual name and email address.
+Make sure to replace "Your Name" and "your.email@example.com" with your actual name and email address. This ensures that your github looks professional and it's easy for others to find your work.
 
-## 2️⃣ Clone a repository locally
+## Clone a repository locally
 
-- Navigate to the GitHub repository you want to clone.
+When we clone a repository we make a identical copy, including all folders and every version of files, from the data stored on Github at the time of cloning. There are several ways to do this, the easiest is by copying the URL. 
+
+1. Navigate to the GitHub repository you want to clone.
 - Click on the **Code** button and copy the URL.
 - Open a terminal and navigate to your desired location.
 - Run the following command:
 
-```git
-git clone <repository_url>
-```
+    ```git
+    git clone <repository_url>
+    ```
 
-## 3️⃣ Create and switch branches
+By default the clone command will save the repository in a local folder on your computer which has the same name as the original repository you cloned. 
 
-- Branches are used so many developers can work on the same project simultaneously without affecting the main codebase.
+5. To specify a folder name you can add it after the URL.
 
-- To create a new branch, run:
+    ```git
+    git clone <repo> <directory>
+    ```
 
-```git
-git checkout -b <new_branch_name>
-```
+##  Create and switch branches
 
-- To switch between branches, run:
+1. Branches are used so many developers can work on the same project simultaneously without affecting the main codebase.
 
-```git
-git checkout <branch_name>
-```
+2. To create a new branch, make sure you are in the correct project folder and run:
+
+    ```git
+    git checkout -b <new_branch_name>
+    ```
+
+3. To switch between branches, run:
+
+    ```git
+    git checkout <branch_name>
+    ```
 
 ## 4️⃣ Stage and commit changes
 
