@@ -77,7 +77,7 @@ Next we will make a change to the code in our cloned repository. In order for th
 
 Write clear, concise, and descriptive commit messages that summarize the changes made in the commit.
 
-!!! warning "Warning"
+!!! tip "Tip"
 Make sure your commit message begins with a imperative verb. This is considered best practice as it allows for others to quickly understand the purpose of your commit.
 
 ## Push changes remotely
