@@ -3,7 +3,7 @@
 Git is a opened source version control system used alongside GitHub. This section will help you work with Git and manage your code on GitHub. You will learn the most commonly used Git commands and when to use them.
 
 !!! warning "Warning"
-All commands in this section are run in the terminal window. Make sure you are in your project repository when running any commands. You can use CD to change directories.
+All commands in this section are run in the terminal window. Make sure you are in your project repository when running any commands. You can use CD to change directories. 
 
 ## Install and configure Git
 
