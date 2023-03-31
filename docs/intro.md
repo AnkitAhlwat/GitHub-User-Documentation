@@ -2,7 +2,7 @@ Welcome to the Github User Documentation guide. This guide is intended for new p
 
 ## Pre-requisites 
 
-While this is a beginners guide, there are still several pre-requisites in order follow along:
+While this is a beginners guide, there are still several pre-requisites in order to follow along:
 
 - A Github account: you can sign up free [**with this link**](https://github.com/join).
 
