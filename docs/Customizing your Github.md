@@ -1,6 +1,6 @@
 # Customizing your Github
 
-It is common to link your Github on your resume and for employers to look at it. Because of this it is important to have a well organized Github profile, with pinned projects and profile customizations. In this competitive job market it's important to stand out! This section will cover some important features and settings to improve your profile and customize your Github experience.
+It is common to link your Github on your resume and for employers to look at it. Because of this it is important to have a well organized Github profile, with pinned projects and profile customizations. In this competitive job market you need to stand out! This section will cover some important features and settings to improve your profile and customize your Github experience.
 
 ## Set your profile picture
 
