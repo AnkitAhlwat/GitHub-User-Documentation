@@ -7,24 +7,24 @@ This section is designed to help beginners create and configure a repository by 
 
 This guide is targeted for beginners who have just started their programming journey. This steps will be as thorough as possible.Please login in to your GitHub profile and lets begin! If you do not have a GitHub profile, click [**here**](https://docs.github.com/en/get-started/onboarding/getting-started-with-your-github-account).
 
-### Navigating the landing page
+## Navigating the landing page
 
 Once you log in to GitHub, you will be directed to the landing page. The page may appear different for each individual user but the layout will remain the same.
 ![Alt text](https://gcdnb.pbrd.co/images/Px1c5cdjot8s.png?o=1)
 
-Click on the + icon on the top right of the webpage. <br>
+1. Click on the + icon on the top right of the webpage. <br>
 ![Alt text](https://gcdnb.pbrd.co/images/Lrc36dW7213F.png?o=1 )
 
-Once clicked, a dropdown should appear as the one below.
+2. Once clicked, a dropdown should appear as the one below.
 ![Alt text](https://gcdnb.pbrd.co/images/Tjbss6Wg4nqM.png?o=1 )
 
-Click on "New repository". <br>
+3. Click on "New repository". <br>
 ![Alt text](https://gcdnb.pbrd.co/images/1x4eQQKC1cDU.png?o=1 )
 
 Once clicked, you should be redirected to a page like this. Take a moment to examine the page and once ready we will go over all required fields needed to create a repository.
 ![Alt text](https://gcdnb.pbrd.co/images/5IouJOtYoMZ5.png?o=1 )
 
-### Configuring the repository
+## Configuring the repository
 
 Scroll down until you see a blank text field with the name "Repository name"
 ![Alt text](https://gcdnb.pbrd.co/images/tjH7z4fxCd0l.png?o=1 )
