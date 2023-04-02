@@ -1,6 +1,6 @@
 # Customizing your Github
 
-It is common to link your Github on your resume and for employers to look at it. Because of this it is important to have a well organized Github profile, with pinned projects and profile customizations. In this competitive job market you need to stand out! This section will cover some important features and settings to improve your profile and customize your Github experience.
+It is common to link your Github on your resume and for employers to look at it. Because of this it is important to have a well organized Github profile. In this competitive job market you need to stand out! This section will cover some important features and settings to improve your profile and customize your Github experience.
 
 ## Set your profile picture
 
@@ -58,7 +58,7 @@ It is important to note that all pinned repositories will be public! That means 
 
 ## Customize your dashboard with widgets:
 
-This is a feature not many users know about. Widgets are small applications that you can add to your github dashboard. They range from displaying your code contributions from the past year to your most recently used repositories. Widgets can help keep your profile organized, monitor progress and track your stats!
+Widgets are small applications that you can add to your github dashboard. They range from displaying your code contributions from the past year to your most recently used repositories. Widgets can help keep your profile organized, monitor progress and track your stats!
 
 1. Go to your GitHub dashboard.
 2. Click on the "Customize your pins" button in the top right corner of the page.

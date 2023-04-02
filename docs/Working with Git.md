@@ -3,7 +3,7 @@
 Git is a opened source version control system used alongside GitHub. This section will help you work with Git and manage your code on GitHub. You will learn the most commonly used Git commands and when to use them.
 
 !!! warning "Warning"
-All commands in this section are run in the terminal window. Make sure you are in your project repository when running any commands. You can use CD to change directories. 
+All commands in this section are run in the terminal window. Make sure you are in your project folder when running any commands. You can use CD to change directories. 
 
 ## Install and configure Git
 
@@ -41,15 +41,15 @@ By default the clone command will save the repository in a local folder on your 
 
 ##  Create and switch branches
 
-1. Branches are used so many developers can work on the same project simultaneously without affecting the main codebase.
+Branches are used so many developers can work on the same project simultaneously without affecting the main codebase.
 
-2. To create a new branch, make sure you are in the correct project folder and run:
+1. Create a new branch, make sure you are in the correct project folder and run:
 
     ```git
     git checkout -b <new_branch_name>
     ```
 
-3. To switch between branches, run:
+2. To switch between branches, run:
 
     ```git
     git checkout <branch_name>
