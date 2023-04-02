@@ -7,7 +7,7 @@ This section is designed to help beginners create and configure a repository by 
 
 This guide is targeted for beginners who have just started their programming journey. This steps will be as thorough as possible.Please login in to your GitHub profile and lets begin! If you do not have a GitHub profile, click here to follow nice quick and easy guide on creating a GitHub account.
 
-### Navigating through the landing page
+### Navigating the landing page
 
 We start of with the landing page when you login to GitHub. The page will appear different for each individual user but the layout will remain the same.
 ![Alt text](https://gcdnb.pbrd.co/images/Px1c5cdjot8s.png?o=1 "GitHub Landing Page")
