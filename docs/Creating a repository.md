@@ -53,3 +53,8 @@ Now we welcome all programmers from far and wide but keep in mind that this guid
 8. Please select a license that corresponds with your goals. If you do not know which license to choose, selecting "None" will work.<br>
 For more information on what licenses are and which will be your best fit, please click here.
 ![Alt text](https://gcdnb.pbrd.co/images/BEt0ccKoWZrh.png?o=1 "GitHub Landing Page")
+
+9. Please review all steps have been followed then click "Create repository" at the very bottom of the page.<br>
+![Alt text](https://gcdnb.pbrd.co/images/B89nWvKOsaby.png?o=1 "GitHub Landing Page")
+10. Congratulations, you have created a repository. You should be redirected to the repository page which looks like this.
+![Alt text](https://gcdnb.pbrd.co/images/m2xtCN6JxLHY.png?o=1 "GitHub Landing Page")
