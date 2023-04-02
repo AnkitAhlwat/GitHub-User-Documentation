@@ -5,7 +5,7 @@ This section is designed to help beginners create and configure a repository by 
 
 ## Before You Begin
 
-Now we welcome all programmers from far and wide but keep in mind that this guide is targeted for beginners who have just started their programming journey. This means the steps will be as thorough as possible. Now with that in mind, please login in to your GitHub profile and lets begin! If you do not have a GitHub profile, click here to follow nice quick and easy guide on creating a GitHub account.
+This guide is targeted for beginners who have just started their programming journey. This means the steps will be as thorough as possible. Now with that in mind, please login in to your GitHub profile and lets begin! If you do not have a GitHub profile, click here to follow nice quick and easy guide on creating a GitHub account.
 
 ### Navigating through the landing page
 
