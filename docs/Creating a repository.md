@@ -9,7 +9,7 @@ This guide is targeted for beginners who have just started their programming jou
 
 ### Navigating the landing page
 
-We start of with the landing page when you login to GitHub. The page will appear different for each individual user but the layout will remain the same.
+Once you log in to GitHub, you will be directed to the landing page. The page may appear different for each individual user but the layout will remain the same.
 ![Alt text](https://gcdnb.pbrd.co/images/Px1c5cdjot8s.png?o=1 "GitHub Landing Page")
 
 Click on the + icon on the top right of the webpage. <br>
