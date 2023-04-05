@@ -28,9 +28,9 @@ This is one of simplest, but most effective ways to have a professional looking 
 Another easy improvement to make is adding a description to your bio. This a good way for others to get to know a bit about you and your interests.
 
 1. Follow steps 1-2 from above.
-2. Click on "Your Profile".<br>
+2. Click on "Your Profile" button.<br>
 ![Alt text](./images/yourProfile.png)
-3. Click on the "Edit profile".<br>
+3. Click on the "Edit profile" button.<br>
 ![Alt text](./images/editProfile.png)
 4. Add or edit your name, bio, company, location, and other details as desired.
 5. Click "Save profile" to save your changes.<br>
@@ -43,7 +43,7 @@ Keep your bio description short! This isn't meant to be an autobiography, it sho
 
 Themes are a great way to stand out among others.
 
-1. Follow steps 1-2 above to access your profile settings.
+1. Follow steps 1-2 from above to access your profile settings.
 2. Click on the "Appearance" button.<br>
 ![Alt text](./images/appearance.png)
 3. Browse through the available themes and click on one to preview it.
@@ -57,13 +57,13 @@ Avoid using themes that are distracting or difficult to read.
 
 This step is critical. Employers want to see your projects and they won't be spending a lot of time on your profile. All repositories that you wish to share need to be pinned and immediately accessible at the top of your profile.
 
-1. Go to the repository you want to pin to your profile.
-2. Click on the "Settings" tab.
-3. Scroll down to the "Features" section.
-4. Toggle the "Pinned repository" switch to "On".
-5. Choose a number from 1-6 to indicate where you want the repository to appear on your profile.
-6. Click "Save" to save your changes.
-
+1. Follow steps 1-2 from above to access your repository.
+2. Click on "Your repositories" button.<br>
+![Alt text](./images/yourRepositories.png)
+3. Go to the repository you want to pin to your profile.<br>
+![Alt text](./images/repository.png)
+4. Click on the "Pin" tab on the top right.<br>
+![Alt text](./images/pin.png)
 !!! warning "Warning"
 It is important to note that all pinned repositories will be public! That means anyone who visits your profile can view them.
 
