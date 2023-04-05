@@ -4,7 +4,7 @@ It is common to link your Github on your resume and for employers to look at it.
 
 ## Set your profile picture
 
-This is one of simplest, but most effective ways to have a professional looking Github. Do not use a profile picture of your favourite Anime character or worse, a default profile picture. Upload a head shot of yourself and make sure it is high resolution.
+This is one of your simplest, but most effective ways to have a professional looking Github. Do not use a profile picture of your favourite Anime character or worse, a default profile picture. Upload a head shot of yourself and make sure it is high resolution.
 
 1. Log in to your GitHub account.
 2. Click on your profile icon in the top right corner of the page.<br>
@@ -50,8 +50,8 @@ Themes are a great way to stand out among others.
 ![Alt text](./images/themes.png)
 4. Click on any color theme and it will automatically apply.
 
-!!! tip "Tip"
-Avoid using themes that are distracting or difficult to read.
+!!! Avoid using themes that are distracting or difficult to read. "Tip"
+
 
 ## Pin repositories to your profile
 

@@ -31,7 +31,7 @@ Once clicked, you should be redirected to a page like this. Take a moment to exa
 1. Scroll down until you see a blank text field with the name "Repository name"
 ![Alt text](https://gcdnb.pbrd.co/images/tjH7z4fxCd0l.png?o=1 )
 
-2. Enter a name of you would like to call your repository.
+2. Enter a name of your repository.
 ![Alt text](https://gcdnb.pbrd.co/images/cmMn7APRgzmt.png?o=1 )
 
 3. (Optional) Enter a brief description of what the repository will be used for in the Description text field.
