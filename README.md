@@ -12,3 +12,5 @@ The layout of the site is as follows:
 6. Troubleshooting
 7. Glossary
 
+We hope this documentation helps you navigate and make the most of GitHub and Git for your projects. 
+
