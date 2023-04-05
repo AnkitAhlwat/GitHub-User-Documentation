@@ -12,9 +12,11 @@ This is one of simplest, but most effective ways to have a professional looking 
 3. Click on "Settings" in the dropdown menu.<br>
 ![Alt text](./images/settingButton.png)
 4. Click on "Public Profile" in the left-hand sidebar.
+![Alt text](./images/publicProfile.png)
 5. Click on "Edit" on the right side of the page.<br>
 ![Alt text](./images/editButton.png)
-6. Click "Upload a Photo"
+6. Click "Upload a Photo"<br>
+![Alt text](./images/uploadPhoto.png)
 7. Upload a new photo or choose one from your existing repositories.
 8. Crop your photo if necessary and click "Set new profile picture" to save.
 
@@ -42,9 +44,11 @@ Keep your bio description short! This isn't meant to be an autobiography, it sho
 Themes are a great way to stand out among others.
 
 1. Follow steps 1-2 above to access your profile settings.
-2. Click on the "Theme chooser" button.
+2. Click on the "Appearance" button.<br>
+![Alt text](./images/appearance.png)
 3. Browse through the available themes and click on one to preview it.
-4. Once you find a theme you like, click "Select theme" to apply it to your profile.
+![Alt text](./images/themes.png)
+4. Click on any color theme and it will automatically apply.
 
 !!! tip "Tip"
 Avoid using themes that are distracting or difficult to read.
