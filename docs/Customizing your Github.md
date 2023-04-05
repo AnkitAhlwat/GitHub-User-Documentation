@@ -4,7 +4,7 @@ It is common to link your Github on your resume and for employers to look at it.
 
 ## Set your profile picture
 
-This is one of simplest, but most effective ways to have a professional looking Github. Do not use a profile picture of your favourite Anime character or worse, a default profile picture. Upload a head shot of yourself and make sure it is high resolution. 
+This is one of simplest, but most effective ways to have a professional looking Github. Do not use a profile picture of your favourite Anime character or worse, a default profile picture. Upload a head shot of yourself and make sure it is high resolution.
 
 1. Log in to your GitHub account.
 2. Click on your profile icon in the top right corner of the page.
@@ -15,7 +15,7 @@ This is one of simplest, but most effective ways to have a professional looking 
 7. Crop your photo if necessary and click "Set new profile picture" to save.
 
 !!! note
-    Steps 1-4 will be re-used to access your profile settings. Anytime steps 1-4 are referred to you can come back here to view them again. 
+    Steps 1-4 will be re-used to access your profile settings. Anytime steps 1-4 are referred to you can come back here to view them again.
 
 ## Edit your profile bio and details
 
@@ -31,7 +31,7 @@ Keep your bio description short! This isn't meant to be an autobiography, it sho
 
 ## Choose a custom theme for your profile
 
-Themes are a great way to stand out among others. 
+Themes are a great way to stand out among others.
 
 1. Follow steps 1-4 above to access your profile settings.
 2. Click on the "Theme chooser" button.
@@ -39,8 +39,7 @@ Themes are a great way to stand out among others.
 4. Once you find a theme you like, click "Select theme" to apply it to your profile.
 
 !!! tip "Tip"
-Avoid using themes that are distracting or difficult to read. 
-
+Avoid using themes that are distracting or difficult to read.
 
 ## Pin repositories to your profile
 
@@ -56,7 +55,7 @@ This step is critical. Employers want to see your projects and they won't be spe
 !!! warning "Warning"
 It is important to note that all pinned repositories will be public! That means anyone who visits your profile can view them.
 
-## Customize your dashboard with widgets:
+## Customize your dashboard with widgets
 
 Widgets are small applications that you can add to your github dashboard. They range from displaying your code contributions from the past year to your most recently used repositories. Widgets can help keep your profile organized, monitor progress and track your stats!
 
