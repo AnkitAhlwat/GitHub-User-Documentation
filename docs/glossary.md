@@ -13,7 +13,6 @@ This glossary contains terms that are commonly used when referring to git or Git
 - **Pull Request**: A request to merge changes from one branch into another on GitHub. Pull requests allow for code review and discussion before the changes are merged.
 - **Remote**: A version of your repository that is hosted on a server, typically on a platform like GitHub. A remote repository can be cloned and synchronized with your local repository.
 - **Repository (repo)**: A container for a project's files, including its complete history of changes. It can be hosted locally on your computer or remotely on a server.
-- **SSH (Secure Shell)**: A cryptographic network protocol used to securely access network services over an unsecured network. In the context of Git, SSH is used to authenticate your connection to a remote repository when pushing or pulling changes.
 - **Staging**: The process of marking changes in your working directory to be included in the next commit.
 - **Upstream**: The main or original repository from which you forked or cloned your repository. It is considered the primary source of updates and changes.
 
