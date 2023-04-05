@@ -4,43 +4,50 @@ It is common to link your Github on your resume and for employers to look at it.
 
 ## Set your profile picture
 
-This is one of simplest, but most effective ways to have a professional looking Github. Do not use a profile picture of your favourite Anime character or worse, a default profile picture. Upload a head shot of yourself and make sure it is high resolution. 
+This is one of simplest, but most effective ways to have a professional looking Github. Do not use a profile picture of your favourite Anime character or worse, a default profile picture. Upload a head shot of yourself and make sure it is high resolution.
 
 1. Log in to your GitHub account.
-2. Click on your profile icon in the top right corner of the page.
-3. Click on "Settings" in the dropdown menu.
-4. Click on "Profile" in the left-hand sidebar.
-5. Click on "Change your profile picture".
-6. Upload a new photo or choose one from your existing repositories.
-7. Crop your photo if necessary and click "Set new profile picture" to save.
+2. Click on your profile icon in the top right corner of the page.<br>
+![Alt text](./images/profile.png)
+3. Click on "Settings" in the dropdown menu.<br>
+![Alt text](./images/settingButton.png)
+4. Click on "Public Profile" in the left-hand sidebar.
+5. Click on "Edit" on the right side of the page.<br>
+![Alt text](./images/editButton.png)
+6. Click "Upload a Photo"
+7. Upload a new photo or choose one from your existing repositories.
+8. Crop your photo if necessary and click "Set new profile picture" to save.
 
 !!! note
-    Steps 1-4 will be re-used to access your profile settings. Anytime steps 1-4 are referred to you can come back here to view them again. 
+    Steps 1-2 will be re-used to access your profile settings. Anytime steps 1-2 are referred to you can come back here to view them again.
 
 ## Edit your profile bio and details
 
 Another easy improvement to make is adding a description to your bio. This a good way for others to get to know a bit about you and your interests.
 
-1. Follow steps 1-4 from above to access your profile settings.
-2. Click on the "Edit profile" button.
-3. Add or edit your name, bio, company, location, and other details as desired.
-4. Click "Save profile" to save your changes.
+1. Follow steps 1-2 from above.
+2. Click on "Your Profile".<br>
+![Alt text](./images/yourProfile.png)
+3. Click on the "Edit profile".<br>
+![Alt text](./images/editProfile.png)
+4. Add or edit your name, bio, company, location, and other details as desired.
+5. Click "Save profile" to save your changes.<br>
+![Alt text](./images/save.png)
 
 !!! tip "Tip"
 Keep your bio description short! This isn't meant to be an autobiography, it should be a brief description.
 
 ## Choose a custom theme for your profile
 
-Themes are a great way to stand out among others. 
+Themes are a great way to stand out among others.
 
-1. Follow steps 1-4 above to access your profile settings.
+1. Follow steps 1-2 above to access your profile settings.
 2. Click on the "Theme chooser" button.
 3. Browse through the available themes and click on one to preview it.
 4. Once you find a theme you like, click "Select theme" to apply it to your profile.
 
 !!! tip "Tip"
-Avoid using themes that are distracting or difficult to read. 
-
+Avoid using themes that are distracting or difficult to read.
 
 ## Pin repositories to your profile
 
@@ -56,7 +63,7 @@ This step is critical. Employers want to see your projects and they won't be spe
 !!! warning "Warning"
 It is important to note that all pinned repositories will be public! That means anyone who visits your profile can view them.
 
-## Customize your dashboard with widgets:
+## Customize your dashboard with widgets
 
 Widgets are small applications that you can add to your github dashboard. They range from displaying your code contributions from the past year to your most recently used repositories. Widgets can help keep your profile organized, monitor progress and track your stats!
 
