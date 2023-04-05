@@ -1,8 +1,6 @@
 # Glossary
 
-This glossary contains terms that are commonly used when referring to git or Github. 
-
-This is by no means an exhaustive list of terminology however, it covers the basics.
+This glossary contains terms that are commonly used when referring to git or Github. While this is by no means an exhaustive list of terminology however, it covers the basics.
 
 - **Branch**: A parallel version of a repository that allows developers to work on different features or bug fixes simultaneously without affecting the main codebase.
 - **Clone**: To create a local copy of a remote repository on your computer.

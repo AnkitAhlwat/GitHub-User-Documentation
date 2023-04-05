@@ -32,7 +32,7 @@ Once clicked, you should be redirected to a page like this. Take a moment to exa
 2. Enter a name of you would like to call your repository.
 ![Alt text](https://gcdnb.pbrd.co/images/cmMn7APRgzmt.png?o=1 )
 
-3. (Optional)Enter a brief description of what the repository will be used for in the Description text field.
+3. (Optional) Enter a brief description of what the repository will be used for in the Description text field.
 ![Alt text](https://gcdnb.pbrd.co/images/pwPHwUq4dkyN.png?o=11 )
 
 4. Select the visibility you would like for the repository.
