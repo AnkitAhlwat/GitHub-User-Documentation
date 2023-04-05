@@ -23,6 +23,7 @@ Once you log in to GitHub, you will be directed to the landing page. The page ma
 ![Alt text](https://gcdnb.pbrd.co/images/1x4eQQKC1cDU.png?o=1 )
 
 Once clicked, you should be redirected to a page like this. Take a moment to examine the page and once ready we will go over all required fields needed to create a repository.
+
 ![Alt text](https://gcdnb.pbrd.co/images/5IouJOtYoMZ5.png?o=1 )
 
 ## Configuring the repository

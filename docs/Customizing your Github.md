@@ -79,3 +79,10 @@ Widgets are small applications that you can add to your github dashboard. They r
 
 !!! note
    Your Github dashboard is private, others cannot view it or any widgets you add.
+
+## Conclusion and recap
+By the end of this section, you will have successfully learned the following:
+
+- How to change your Github profile picture
+- How to pin projects at the top of your profile and edit your bio
+- How to personalize your Github profile with themes and widgets
