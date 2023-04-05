@@ -27,7 +27,7 @@ We briefly covered this in the working with Git section, however because it is s
 
 1. Pull the most recent changes from the repository
 2. If a conflict occurs your IDE will automatically open the conflicted files
-3. Look for the conflict markers (<<<<<<<, =======, and >>>>>>>) and choose which changes you wish to keep
+3. Look for the conflict markers (<<<<<<<, =======, and >>>>>>>) and choose the changes you wish to keep
 4. Edit any file(s) to resolve the conflict
 5. Stage and commit the changes
 6. Push them back to your repository
@@ -38,4 +38,7 @@ This error occurs if you are attempting to run git commands but are not in the c
 
 1. Navigate to the correct directory using CD to change directories
 2. If you are unsure of the path to the directory locate the repository on your computer and look at the top of the folder as seen below:
+
+![Alt text](./images/path.png)
  
+If the error persists your files may be corrupted. In this case your best option is to clone the repository again. 
