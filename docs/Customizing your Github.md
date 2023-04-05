@@ -21,7 +21,7 @@ This is one of simplest, but most effective ways to have a professional looking 
 8. Crop your photo if necessary and click "Set new profile picture" to save.
 
 !!! note
-    Steps 1-2 will be re-used to access your profile settings. Anytime steps 1-2 are referred to you can come back here to view them again.
+    Steps 1-3 will be re-used to access your profile settings. Anytime steps 1-3 are referred to you can come back here to view them again.
 
 ## Edit your profile bio and details
 
