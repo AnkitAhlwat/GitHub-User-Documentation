@@ -24,4 +24,4 @@ Throughout the guide you will see the following admonitions:
 
 !!! Warning
 
-The purpose is to highlight helpful suggestions, additional information or a potential issues you may encounter. Keep an eye out for them!
+The purpose of these is to highlight helpful suggestions, additional information or a potential issues you may encounter. Keep an eye out for them!
