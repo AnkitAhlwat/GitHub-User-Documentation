@@ -488,12 +488,17 @@
 <p>All commands in this section are run in the terminal window. Make sure you are in your project folder when running any commands. Refer to the homepage for more information on the terminal.</p>
 </div>
 <h2 id="install-and-configure-git">Install and configure Git</h2>
+<p>If you believe you have already installed git enter the following command to check:</p>
+<div class="language-text highlight"><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a>git version
+</span></code></pre></div>
+<p><img alt="Alt text" src="../images/gitversion.png" /></p>
+<p>Otherwise, follow the instructions below:</p>
 <ol>
 <li>Download and install Git from the <a href="https://git-scm.com/downloads"><strong>official website</strong></a>.</li>
 <li>
 <p>Configure Git with your username and email using the terminal:</p>
-<div class="language-text highlight"><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a>git config --global user.name &quot;Your Name&quot;
-</span><span id="__span-0-2"><a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a>git config --global user.email &quot;your.email@example.com&quot;
+<div class="language-text highlight"><pre><span></span><code><span id="__span-1-1"><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a>git config --global user.name &quot;Your Name&quot;
+</span><span id="__span-1-2"><a id="__codelineno-1-2" name="__codelineno-1-2" href="#__codelineno-1-2"></a>git config --global user.email &quot;your.email@example.com&quot;
 </span></code></pre></div>
 </li>
 </ol>
@@ -514,14 +519,14 @@
 </li>
 <li>
 <p>Run the following command:</p>
-<div class="language-text highlight"><pre><span></span><code><span id="__span-1-1"><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a>git clone &lt;repository_url&gt;
+<div class="language-text highlight"><pre><span></span><code><span id="__span-2-1"><a id="__codelineno-2-1" name="__codelineno-2-1" href="#__codelineno-2-1"></a>git clone &lt;repository_url&gt;
 </span></code></pre></div>
 <p>By default the clone command will save the repository in a local folder under C:\Users\"your name"</p>
 <p>To specify a folder name you can add it after the URL.</p>
 </li>
 <li>
 <p>Run the following command:</p>
-<div class="language-text highlight"><pre><span></span><code><span id="__span-2-1"><a id="__codelineno-2-1" name="__codelineno-2-1" href="#__codelineno-2-1"></a>git clone &lt;repo&gt; &lt;folder name&gt;
+<div class="language-text highlight"><pre><span></span><code><span id="__span-3-1"><a id="__codelineno-3-1" name="__codelineno-3-1" href="#__codelineno-3-1"></a>git clone &lt;repo&gt; &lt;folder name&gt;
 </span></code></pre></div>
 <p><img alt="Alt text" src="../images/gitclone.png" /></p>
 </li>
@@ -532,17 +537,17 @@
 <ol>
 <li>
 <p>Stage the changes:</p>
-<p><div class="language-text highlight"><pre><span></span><code><span id="__span-3-1"><a id="__codelineno-3-1" name="__codelineno-3-1" href="#__codelineno-3-1"></a>git add .
+<p><div class="language-text highlight"><pre><span></span><code><span id="__span-4-1"><a id="__codelineno-4-1" name="__codelineno-4-1" href="#__codelineno-4-1"></a>git add .
 </span></code></pre></div>
 <img alt="Alt text" src="../images/gitadd.png" /></p>
 <p>Nothing will happen after this command however your changes have been staged. If you want to check which commits are currently staged run:</p>
-<p><div class="language-text highlight"><pre><span></span><code><span id="__span-4-1"><a id="__codelineno-4-1" name="__codelineno-4-1" href="#__codelineno-4-1"></a>git diff --cached
+<p><div class="language-text highlight"><pre><span></span><code><span id="__span-5-1"><a id="__codelineno-5-1" name="__codelineno-5-1" href="#__codelineno-5-1"></a>git diff --cached
 </span></code></pre></div>
 <img alt="Alt text" src="../images/gitdiff.png" /></p>
 </li>
 <li>
 <p>Commit the changes:</p>
-<p><div class="language-text highlight"><pre><span></span><code><span id="__span-5-1"><a id="__codelineno-5-1" name="__codelineno-5-1" href="#__codelineno-5-1"></a>git commit -m &quot;Your descriptive commit message&quot;
+<p><div class="language-text highlight"><pre><span></span><code><span id="__span-6-1"><a id="__codelineno-6-1" name="__codelineno-6-1" href="#__codelineno-6-1"></a>git commit -m &quot;Your descriptive commit message&quot;
 </span></code></pre></div>
 <img alt="Alt text" src="../images/gitcommit.png" /></p>
 </li>
@@ -557,7 +562,7 @@ Make sure your commit message begins with a imperative verb. This is considered 
 <ol>
 <li>
 <p>Push your changes to the remote repository, run:</p>
-<div class="language-text highlight"><pre><span></span><code><span id="__span-6-1"><a id="__codelineno-6-1" name="__codelineno-6-1" href="#__codelineno-6-1"></a>git push
+<div class="language-text highlight"><pre><span></span><code><span id="__span-7-1"><a id="__codelineno-7-1" name="__codelineno-7-1" href="#__codelineno-7-1"></a>git push
 </span></code></pre></div>
 <p><img alt="Alt text" src="../images/gitpush.png" /></p>
 <p>Now all changes to your repository made locally will be reflected on Github. </p>
@@ -569,7 +574,7 @@ Make sure your commit message begins with a imperative verb. This is considered 
 <ol>
 <li>
 <p>Update your local branch with the latest remote changes, run:</p>
-<div class="language-text highlight"><pre><span></span><code><span id="__span-7-1"><a id="__codelineno-7-1" name="__codelineno-7-1" href="#__codelineno-7-1"></a>git pull
+<div class="language-text highlight"><pre><span></span><code><span id="__span-8-1"><a id="__codelineno-8-1" name="__codelineno-8-1" href="#__codelineno-8-1"></a>git pull
 </span></code></pre></div>
 <p><img alt="Alt text" src="../images/gitpull.png" /></p>
 <p>Unless you had someone else make a change to your cloned repository nothing will change because there is nothing to pull. Most IDE's will create a popup that says "all files are up to date" if this is the case or the terminal will notify you.</p>
@@ -599,7 +604,7 @@ Make sure your commit message begins with a imperative verb. This is considered 
 <ol>
 <li>
 <p>View the commit history, run:</p>
-<p><div class="language-text highlight"><pre><span></span><code><span id="__span-8-1"><a id="__codelineno-8-1" name="__codelineno-8-1" href="#__codelineno-8-1"></a>git log
+<p><div class="language-text highlight"><pre><span></span><code><span id="__span-9-1"><a id="__codelineno-9-1" name="__codelineno-9-1" href="#__codelineno-9-1"></a>git log
 </span></code></pre></div>
 <img alt="Alt text" src="../images/gitlog.png" /></p>
 </li>
@@ -609,7 +614,7 @@ Make sure your commit message begins with a imperative verb. This is considered 
 <ol>
 <li>
 <p>Undo or modify commits, run:</p>
-<div class="language-text highlight"><pre><span></span><code><span id="__span-9-1"><a id="__codelineno-9-1" name="__codelineno-9-1" href="#__codelineno-9-1"></a>git reset &lt;commit_id&gt;
+<div class="language-text highlight"><pre><span></span><code><span id="__span-10-1"><a id="__codelineno-10-1" name="__codelineno-10-1" href="#__codelineno-10-1"></a>git reset &lt;commit_id&gt;
 </span></code></pre></div>
 <p><img alt="Alt text" src="../images/gitrevert.png" /></p>
 <p>In the example above the original commit at the bottom was reverted at the top. </p>
