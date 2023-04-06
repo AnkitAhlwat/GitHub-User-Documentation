@@ -15,7 +15,7 @@
         <link rel="next" href="../troubleshooting/">
       
       <link rel="icon" href="../assets/images/favicon.png">
-      <meta name="generator" content="mkdocs-1.4.2, mkdocs-material-9.1.3">
+      <meta name="generator" content="mkdocs-1.4.2, mkdocs-material-9.1.5">
     
     
       
@@ -23,7 +23,7 @@
       
     
     
-      <link rel="stylesheet" href="../assets/stylesheets/main.c4a75a56.min.css">
+      <link rel="stylesheet" href="../assets/stylesheets/main.7a7fce14.min.css">
       
         
         <link rel="stylesheet" href="../assets/stylesheets/palette.a0c5b2b5.min.css">
@@ -227,21 +227,6 @@
   
   
     <li class="md-nav__item">
-      <a href="../intro/" class="md-nav__link">
-        Intro
-      </a>
-    </li>
-  
-
-    
-      
-      
-      
-
-  
-  
-  
-    <li class="md-nav__item">
       <a href="../Creating%20a%20repository/" class="md-nav__link">
         Creating your first repository
       </a>
@@ -320,22 +305,8 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#create-and-switch-branches" class="md-nav__link">
-    Create and switch branches
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
   <a href="#stage-and-commit-changes" class="md-nav__link">
     Stage and commit changes
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#writing-commit-messages" class="md-nav__link">
-    Writing commit messages
   </a>
   
 </li>
@@ -355,8 +326,8 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#resolve-merge-conflicts" class="md-nav__link">
-    Resolve merge conflicts
+  <a href="#merge-conflicts" class="md-nav__link">
+    Merge conflicts
   </a>
   
 </li>
@@ -454,22 +425,8 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#create-and-switch-branches" class="md-nav__link">
-    Create and switch branches
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
   <a href="#stage-and-commit-changes" class="md-nav__link">
     Stage and commit changes
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#writing-commit-messages" class="md-nav__link">
-    Writing commit messages
   </a>
   
 </li>
@@ -489,8 +446,8 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#resolve-merge-conflicts" class="md-nav__link">
-    Resolve merge conflicts
+  <a href="#merge-conflicts" class="md-nav__link">
+    Merge conflicts
   </a>
   
 </li>
@@ -525,11 +482,11 @@
 
 
 <h1 id="working-with-git">Working with Git</h1>
-<p>Git is a opened source version control system used alongside GitHub. This section will help you work with Git and manage your code on GitHub. You will learn the most commonly used Git commands and when to use them.</p>
+<p>Git is a opened source version control system used alongside GitHub. This section will help you work with Git and manage your code on GitHub. You will learn the most commonly used Git commands and when to use them. Apart from step 1, this section is not intended to be followed in chronological order, rather, it should be referred to for individual commands only.</p>
 <div class="admonition warning">
 <p class="admonition-title">Warning</p>
+<p>All commands in this section are run in the terminal window. Make sure you are in your project folder when running any commands. Refer to the homepage for more information on the terminal.</p>
 </div>
-<p>All commands in this section are run in the terminal window. Make sure you are in your project folder when running any commands. You can use CD to change directories. </p>
 <h2 id="install-and-configure-git">Install and configure Git</h2>
 <ol>
 <li>Download and install Git from the <a href="https://git-scm.com/downloads"><strong>official website</strong></a>.</li>
@@ -542,40 +499,31 @@
 </ol>
 <div class="admonition tip">
 <p class="admonition-title">Tip</p>
-</div>
 <p>Make sure to replace "Your Name" and "your.email@example.com" with your actual name and email address. This ensures that your github looks professional and it is easy for others to find your work.</p>
+</div>
 <h2 id="clone-a-repository-locally">Clone a repository locally</h2>
-<p>When we clone a repository we make a identical copy, including all folders and every version of files, from the data stored on Github at the time of cloning. There are several ways to do this, the easiest is by copying the URL. </p>
+<p>When we clone a repository we make a identical copy, including all folders, from the data stored on Github at the time of cloning. There are several ways to do this, the easiest is by copying the URL. </p>
 <ol>
 <li>Navigate to the GitHub repository you want to clone.</li>
-<li>Click on the <strong>Code</strong> button and copy the URL.</li>
-<li>Open a terminal and navigate to your desired location.</li>
+<li>
+<p>Click on the <strong>Code</strong> button and copy the URL:</p>
+<p><img alt="Alt text" src="../images/clone.png" /></p>
+</li>
+<li>
+<p>Open the terminal and navigate to the location you wish to clone your repository.</p>
+</li>
 <li>
 <p>Run the following command:</p>
 <div class="language-text highlight"><pre><span></span><code><span id="__span-1-1"><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a>git clone &lt;repository_url&gt;
 </span></code></pre></div>
-</li>
-</ol>
-<p>By default the clone command will save the repository in a local folder on your computer which has the same name as the original repository you cloned. </p>
-<ol>
-<li>
+<p>By default the clone command will save the repository in a local folder under C:\Users\"your name"</p>
 <p>To specify a folder name you can add it after the URL.</p>
-<div class="language-text highlight"><pre><span></span><code><span id="__span-2-1"><a id="__codelineno-2-1" name="__codelineno-2-1" href="#__codelineno-2-1"></a>git clone &lt;repo&gt; &lt;directory&gt;
-</span></code></pre></div>
-</li>
-</ol>
-<h2 id="create-and-switch-branches">Create and switch branches</h2>
-<p>Branches are used so many developers can work on the same project simultaneously without affecting the main codebase.</p>
-<ol>
-<li>
-<p>Create a new branch, make sure you are in the correct project folder and run:</p>
-<div class="language-text highlight"><pre><span></span><code><span id="__span-3-1"><a id="__codelineno-3-1" name="__codelineno-3-1" href="#__codelineno-3-1"></a>git checkout -b &lt;new_branch_name&gt;
-</span></code></pre></div>
 </li>
 <li>
-<p>To switch between branches, run:</p>
-<div class="language-text highlight"><pre><span></span><code><span id="__span-4-1"><a id="__codelineno-4-1" name="__codelineno-4-1" href="#__codelineno-4-1"></a>git checkout &lt;branch_name&gt;
+<p>Run the following command:</p>
+<div class="language-text highlight"><pre><span></span><code><span id="__span-2-1"><a id="__codelineno-2-1" name="__codelineno-2-1" href="#__codelineno-2-1"></a>git clone &lt;repo&gt; &lt;folder name&gt;
 </span></code></pre></div>
+<p><img alt="Alt text" src="../images/gitclone.png" /></p>
 </li>
 </ol>
 <h2 id="stage-and-commit-changes">Stage and commit changes</h2>
@@ -584,29 +532,36 @@
 <ol>
 <li>
 <p>Stage the changes:</p>
-<div class="language-text highlight"><pre><span></span><code><span id="__span-5-1"><a id="__codelineno-5-1" name="__codelineno-5-1" href="#__codelineno-5-1"></a>git add .
+<p><div class="language-text highlight"><pre><span></span><code><span id="__span-3-1"><a id="__codelineno-3-1" name="__codelineno-3-1" href="#__codelineno-3-1"></a>git add .
 </span></code></pre></div>
+<img alt="Alt text" src="../images/gitadd.png" /></p>
+<p>Nothing will happen after this command however your changes have been staged. If you want to check which commits are currently staged run:</p>
+<p><div class="language-text highlight"><pre><span></span><code><span id="__span-4-1"><a id="__codelineno-4-1" name="__codelineno-4-1" href="#__codelineno-4-1"></a>git diff --cached
+</span></code></pre></div>
+<img alt="Alt text" src="../images/gitdiff.png" /></p>
 </li>
 <li>
 <p>Commit the changes:</p>
-<div class="language-text highlight"><pre><span></span><code><span id="__span-6-1"><a id="__codelineno-6-1" name="__codelineno-6-1" href="#__codelineno-6-1"></a>git commit -m &quot;Your descriptive commit message&quot;
+<p><div class="language-text highlight"><pre><span></span><code><span id="__span-5-1"><a id="__codelineno-5-1" name="__codelineno-5-1" href="#__codelineno-5-1"></a>git commit -m &quot;Your descriptive commit message&quot;
 </span></code></pre></div>
+<img alt="Alt text" src="../images/gitcommit.png" /></p>
 </li>
 </ol>
-<h2 id="writing-commit-messages">Writing commit messages</h2>
-<p>Write clear, concise, and descriptive commit messages that summarize the changes made in the commit.</p>
 <div class="admonition tip">
 <p class="admonition-title">Tip</p>
+<p>Write clear, concise, and descriptive commit messages that summarize the changes made in the commit.
+Make sure your commit message begins with a imperative verb. This is considered best practice as it allows for others to quickly understand the purpose of your commit.</p>
 </div>
-<p>Make sure your commit message begins with a imperative verb. This is considered best practice as it allows for others to quickly understand the purpose of your commit.</p>
 <h2 id="push-changes-remotely">Push changes remotely</h2>
 <p>Now that we have staged the changes we need to push them.</p>
 <ol>
 <li>
 <p>Push your changes to the remote repository, run:</p>
-<div class="language-text highlight"><pre><span></span><code><span id="__span-7-1"><a id="__codelineno-7-1" name="__codelineno-7-1" href="#__codelineno-7-1"></a>git push
+<div class="language-text highlight"><pre><span></span><code><span id="__span-6-1"><a id="__codelineno-6-1" name="__codelineno-6-1" href="#__codelineno-6-1"></a>git push
 </span></code></pre></div>
+<p><img alt="Alt text" src="../images/gitpush.png" /></p>
 <p>Now all changes to your repository made locally will be reflected on Github. </p>
+<p><img alt="Alt text" src="../images/commitresult.png" /></p>
 </li>
 </ol>
 <h2 id="pull-remote-changes">Pull remote changes</h2>
@@ -614,26 +569,39 @@
 <ol>
 <li>
 <p>Update your local branch with the latest remote changes, run:</p>
-<p><div class="language-text highlight"><pre><span></span><code><span id="__span-8-1"><a id="__codelineno-8-1" name="__codelineno-8-1" href="#__codelineno-8-1"></a>git pull
+<div class="language-text highlight"><pre><span></span><code><span id="__span-7-1"><a id="__codelineno-7-1" name="__codelineno-7-1" href="#__codelineno-7-1"></a>git pull
 </span></code></pre></div>
-Unless you had someone else make a change to your cloned repository nothing will change because there is nothing to pull. Most IDE's will create a popup that says "all files are up to date" if this is the case.</p>
+<p><img alt="Alt text" src="../images/gitpull.png" /></p>
+<p>Unless you had someone else make a change to your cloned repository nothing will change because there is nothing to pull. Most IDE's will create a popup that says "all files are up to date" if this is the case or the terminal will notify you.</p>
+<p><img alt="Alt text" src="../images/gitpullnoresult.png" /></p>
 </li>
 </ol>
-<h2 id="resolve-merge-conflicts">Resolve merge conflicts</h2>
-<p>Merge conflicts occur when multiple people alter the same lines of code in a repository and then attempt to merge these changes together.
-When you encounter conflicts, edit the affected files to resolve the issues.
-Stage and commit the resolved changes.</p>
+<h2 id="merge-conflicts">Merge conflicts</h2>
+<p>Merge conflicts occur when multiple people alter the same lines of code in a repository and then attempt to merge these changes together. Merge conflicts can be intimidating however they will be broken down into sections:</p>
+<ul>
+<li>Incoming changes </li>
+<li>Result of the incoming changes</li>
+<li>The current code </li>
+</ul>
+<p><img alt="Alt text" src="../images/gitconflict.png" /></p>
+<ol>
+<li>Choose which changes you wish to accept and which you want to reject</li>
+<li>Edit any file(s) to resolve the conflict</li>
+<li>Stage and commit the changes</li>
+<li>Push them back to your repository</li>
+</ol>
 <div class="admonition tip">
 <p class="admonition-title">Tip</p>
-</div>
 <p>Make sure to always pull any changes before beginning to work on a codebase. This will reduce the likelihood of merge conflicts occurring.</p>
+</div>
 <h2 id="navigate-commit-history">Navigate commit history</h2>
 <p>It is often necessary to view commit history in order to know what code has been changed.</p>
 <ol>
 <li>
 <p>View the commit history, run:</p>
-<div class="language-text highlight"><pre><span></span><code><span id="__span-9-1"><a id="__codelineno-9-1" name="__codelineno-9-1" href="#__codelineno-9-1"></a>git log
+<p><div class="language-text highlight"><pre><span></span><code><span id="__span-8-1"><a id="__codelineno-8-1" name="__codelineno-8-1" href="#__codelineno-8-1"></a>git log
 </span></code></pre></div>
+<img alt="Alt text" src="../images/gitlog.png" /></p>
 </li>
 </ol>
 <h2 id="undo-or-modify-commits">Undo or modify commits</h2>
@@ -641,8 +609,10 @@ Stage and commit the resolved changes.</p>
 <ol>
 <li>
 <p>Undo or modify commits, run:</p>
-<div class="language-text highlight"><pre><span></span><code><span id="__span-10-1"><a id="__codelineno-10-1" name="__codelineno-10-1" href="#__codelineno-10-1"></a>git reset &lt;commit_id&gt;
+<div class="language-text highlight"><pre><span></span><code><span id="__span-9-1"><a id="__codelineno-9-1" name="__codelineno-9-1" href="#__codelineno-9-1"></a>git reset &lt;commit_id&gt;
 </span></code></pre></div>
+<p><img alt="Alt text" src="../images/gitrevert.png" /></p>
+<p>In the example above the original commit at the bottom was reverted at the top. </p>
 </li>
 </ol>
 <p>&nbsp;</p>
@@ -675,6 +645,10 @@ Stage and commit the resolved changes.</p>
     <div class="md-footer-meta__inner md-grid">
       <div class="md-copyright">
   
+    <div class="md-copyright__highlight">
+      Copyright &copy; 2023 Ankit Ahlwat and Cadan Glass
+    </div>
+  
   
     Made with
     <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
@@ -695,7 +669,7 @@ Stage and commit the resolved changes.</p>
     <script id="__config" type="application/json">{"base": "..", "features": "content.code.copy", "search": "../assets/javascripts/workers/search.208ed371.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
     
     
-      <script src="../assets/javascripts/bundle.efa0ade1.min.js"></script>
+      <script src="../assets/javascripts/bundle.407015b8.min.js"></script>
       
     
   </body>
