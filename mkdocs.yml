@@ -8,6 +8,7 @@ nav:
     - 'Troubleshooting': 'troubleshooting.md'
     - 'Glossary' : 'glossary.md'
 
+copyright: Copyright &copy; 2023 Ankit Ahlwat and Cadan Glass
 
 theme:
   name: material
