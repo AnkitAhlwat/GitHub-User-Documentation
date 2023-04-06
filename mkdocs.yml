@@ -2,7 +2,6 @@ site_name: Github User Documentation
 
 nav:
     - Home: 'index.md'
-    - 'Intro': 'intro.md'
     - 'Creating your first repository': 'Creating a repository.md'
     - 'Customizing your GitHub': 'Customizing your Github.md'
     - 'Working with Git': 'Working with Git.md'

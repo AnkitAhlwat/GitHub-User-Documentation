@@ -1,17 +1,9 @@
-# Welcome to MkDocs
+Welcome to the Github User Documentation guide. This guide is intended for new programmers that require a quick start guide on how to begin using Github.
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+## Pre-requisites 
 
-## Commands
+While this is a beginners guide, there are still several pre-requisites in order to follow along:
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
+- A Github account: you can sign up free [**with this link**](https://github.com/join).
 
-## Project layout
-
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+- Knowledge of the command prompt/ terminal. If not, we recommend reading [**this tutorial**](https://support.apple.com/en-ca/guide/terminal/welcome/mac) and then returning here.
