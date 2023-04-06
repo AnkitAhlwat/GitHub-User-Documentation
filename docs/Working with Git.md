@@ -8,8 +8,18 @@ Git is a opened source version control system used alongside GitHub. This sectio
 
 ## Install and configure Git
 
+If you believe you have already installed git enter the following command to check:
+
+```git
+git version
+```
+
+![Alt text](./images/gitversion.png)
+
+Otherwise, follow the instructions below:
+
 1. Download and install Git from the [**official website**](https://git-scm.com/downloads).
-- Configure Git with your username and email using the terminal:
+2. Configure Git with your username and email using the terminal:
 
     ```git
     git config --global user.name "Your Name"
