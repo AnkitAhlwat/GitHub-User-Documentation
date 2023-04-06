@@ -92,7 +92,7 @@ Before pushing your changes you must first stage them. This is useful as you can
     ```
     ![Alt text](./images/gitadd.png)
 
-    Nothing will happen after this command however your changes have been staged. If you want to check which commits are currently staged run:
+    Nothing will happen after this command however, your changes have been staged. If you want to check which commits are currently staged run:
     
     ```git
     git diff --cached
