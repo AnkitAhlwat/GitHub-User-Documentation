@@ -57,11 +57,16 @@ When we clone a repository we make a identical copy, including all folders, from
     git clone <repository_url>
     ```
 
-    By default the clone command will save the repository in a local folder under C:\Users\"your name".
+    ![Alt text](./images/gitcloneex.png)
+
+    By default the clone command will save the repository in a local folder under C:\Users\"your name":
 
     ![Alt text](./images/gitsave.png)
 
-    
+    Inside should be all the cloned folders and files:
+
+    ![Alt text](./images/gitclonecontents.png)
+
 5. Run the following command to specify a folder name 
 
     ```git
@@ -69,6 +74,10 @@ When we clone a repository we make a identical copy, including all folders, from
     ```
 
     ![Alt text](./images/gitclone.png)
+
+    As you can see all folders and files have been cloned into the "Giga" folder:
+    
+    ![Alt text](./images/gigagit.png)
 
 ##  Stage and commit changes
 
