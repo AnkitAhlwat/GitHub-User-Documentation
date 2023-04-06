@@ -18,6 +18,7 @@ The following topics are covered:
 
 - A Web browser to access Github
 - Text editor or IDE (we recommend VSCode as most images in this guide will be using it)
+- Git (we will cover how to install this in the Git section)
 
 ## Pre-requisites 
 
