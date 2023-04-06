@@ -26,6 +26,6 @@ This error occurs if you are attempting to run git commands but are not in the c
 1. Navigate to the correct directory using CD to change directories
 2. If you are unsure of the path to the directory locate the repository on your computer and look at the top of the folder as seen below:
 
-![Alt text](./images/path.png)
+    ![Alt text](./images/path.png)
  
 If the error persists your files may be corrupted. In this case your best option is to clone the repository again. 
