@@ -74,19 +74,26 @@ Next we will make a change to the code in our cloned repository. In order for th
     ```git
     git add .
     ```
+    ![Alt text](./images/gitadd.png)
+
+    Nothing will happen after this command however your changes have been staged. If you want to check which commits are currently staged run:
+    
+    ```git
+    git diff --cached
+    ```
+    ![Alt text](./images/gitdiff.png)
 
 - Commit the changes:
 
     ```git
     git commit -m "Your descriptive commit message"
     ```
-
-## Writing commit messages
-
-Write clear, concise, and descriptive commit messages that summarize the changes made in the commit.
+    ![Alt text](./images/gitcommit.png)
 
 !!! tip "Tip"
-Make sure your commit message begins with a imperative verb. This is considered best practice as it allows for others to quickly understand the purpose of your commit.
+
+    Write clear, concise, and descriptive commit messages that summarize the changes made in the commit.
+    Make sure your commit message begins with a imperative verb. This is considered best practice as it allows for others to quickly understand the purpose of your commit.
 
 ## Push changes remotely
 
@@ -97,6 +104,8 @@ Now that we have staged the changes we need to push them.
     ```git
     git push
     ```
+
+    ![Alt text](./images/gitpush.png)
 
     Now all changes to your repository made locally will be reflected on Github. 
 
