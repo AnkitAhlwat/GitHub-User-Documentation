@@ -10,14 +10,12 @@ This error occurs when trying to access a repository for the following reasons:
 2. You do not have the correct permissions
 3. The wrong URL for the repository was entered 
 
-Resolve this error by making sure the repository still exists with the same name, there are no special permissions required to access it and that you copied the correct URl path.
-
 ## Issue: Unable to push or pull changes
 
 If you are not able to push or pull changes from a repository it can be for the following reasons:
 
 1. Network issues: ensure that you have a stable internet connection
-2. Authentication problems: ensure that you have the required permissions and SSH key (AKA authentication token) is configured correctly. Read more about authentication tokens here: [**here**](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/about-ssh)
+2. Authentication problems: ensure that you have the required permissions and SSH key (AKA authentication token) is configured correctly. Read more about authentication tokens [**here**](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/about-ssh).
 3. Repository issue: ensure that the repository still exists
  
 
