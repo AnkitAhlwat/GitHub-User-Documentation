@@ -1,10 +1,10 @@
 # Working with Git 
 
-Git is a opened source version control system used alongside GitHub. This section will help you work with Git and manage your code on GitHub. You will learn the most commonly used Git commands and when to use them. This section is not intended intended to be followed in chronological order, rather it should be referred to for individual commands only.
+Git is a opened source version control system used alongside GitHub. This section will help you work with Git and manage your code on GitHub. You will learn the most commonly used Git commands and when to use them. Apart from step 1, this section is not intended to be followed in chronological order, rather, it should be referred to for individual commands only.
 
 !!! warning "Warning"
 
-    All commands in this section are run in the terminal window. Make sure you are in your project folder when running any commands. You can use CD to change directories. 
+    All commands in this section are run in the terminal window. Make sure you are in your project folder when running any commands. Refer to the homepage for more information on the terminal.
 
 ## Install and configure Git
 
@@ -25,7 +25,7 @@ Git is a opened source version control system used alongside GitHub. This sectio
 When we clone a repository we make a identical copy, including all folders, from the data stored on Github at the time of cloning. There are several ways to do this, the easiest is by copying the URL. 
 
 1. Navigate to the GitHub repository you want to clone.
-2. Click on the **Code** button and copy the URL.
+2. Click on the **Code** button and copy the URL:
 
     ![Alt text](./images/clone.png)
 
@@ -47,21 +47,7 @@ When we clone a repository we make a identical copy, including all folders, from
     git clone <repo> <folder name>
     ```
 
-##  Create and switch branches
-
-Branches are used so many developers can work on the same project simultaneously without affecting the main codebase.
-
-1. Create a new branch, make sure you are in the correct project folder and run:
-
-    ```git
-    git checkout -b <new_branch_name>
-    ```
-
-2. To switch between branches, run:
-
-    ```git
-    git checkout <branch_name>
-    ```
+    ![Alt text](./images/gitclone.png)
 
 ##  Stage and commit changes
 
@@ -109,6 +95,8 @@ Now that we have staged the changes we need to push them.
 
     Now all changes to your repository made locally will be reflected on Github. 
 
+    ![Alt text](./images/commitresult.png)
+
 ##  Pull remote changes
 
 When collaborators on your project push changes to Github you will have to pull their changes to make sure you have the most up to date code. 
@@ -118,18 +106,31 @@ When collaborators on your project push changes to Github you will have to pull 
     ```git
     git pull
     ```
-Unless you had someone else make a change to your cloned repository nothing will change because there is nothing to pull. Most IDE's will create a popup that says "all files are up to date" if this is the case.
 
-## Resolve merge conflicts
+    ![Alt text](./images/gitpull.png)
 
-Merge conflicts occur when multiple people alter the same lines of code in a repository and then attempt to merge these changes together.
-When you encounter conflicts, edit the affected files to resolve the issues.
-Stage and commit the resolved changes.
+    Unless you had someone else make a change to your cloned repository nothing will change because there is nothing to pull. Most IDE's will create a popup that says "all files are up to date" if this is the case or the terminal will notify you.
+
+    ![Alt text](./images/gitpullnoresult.png)
+
+## Merge conflicts
+
+Merge conflicts occur when multiple people alter the same lines of code in a repository and then attempt to merge these changes together. Merge conflicts can be intimidating however they will be broken down into sections:
+
+- Incoming changes 
+- Result of the incoming changes
+- The current code 
+
+![Alt text](./images/gitconflict.png)
+
+1. Choose which changes you wish to accept and which you want to reject
+2. Edit any file(s) to resolve the conflict
+3. Stage and commit the changes
+4. Push them back to your repository
 
 !!! tip "Tip"
-Make sure to always pull any changes before beginning to work on a codebase. This will reduce the likelihood of merge conflicts occurring.
 
-
+    Make sure to always pull any changes before beginning to work on a codebase. This will reduce the likelihood of merge conflicts occurring.
 
 ## Navigate commit history
 
@@ -140,6 +141,7 @@ It is often necessary to view commit history in order to know what code has been
     ```git
     git log
     ```
+    ![Alt text](./images/gitlog.png)
 
 ## Undo or modify commits
 
@@ -150,6 +152,10 @@ If you make a mistake in your commit it is possible to undo it. The simplest way
     ```git
     git reset <commit_id>
     ```
+
+    ![Alt text](./images/gitrevert.png)
+
+    In the example above the original commit at the bottom was reverted at the top. 
 
 &nbsp;
 

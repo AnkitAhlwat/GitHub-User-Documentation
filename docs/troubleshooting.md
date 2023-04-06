@@ -21,17 +21,6 @@ If you are not able to push or pull changes from a repository it can be for the 
 3. Repository issue: ensure that the repository still exists
  
 
-## Issue: Merge conflicts
-
-We briefly covered this in the working with Git section, however because it is such a common issue and can be intimidating for new users we will elaborate on it here. As stated previously, merge conflicts occur when two people edit the same line(s) of code in a file. Git does not know which line(s) is the correct one so you must manually decide which changes to keep and which to reject. Here are the steps to resolve it:
-
-1. Pull the most recent changes from the repository
-2. If a conflict occurs your IDE will automatically open the conflicted files
-3. Look for the conflict markers (<<<<<<<, =======, and >>>>>>>) and choose the changes you wish to keep
-4. Edit any file(s) to resolve the conflict
-5. Stage and commit the changes
-6. Push them back to your repository
-
 ## Issue: "Fatal: not a git repository"
 
 This error occurs if you are attempting to run git commands but are not in the correct repository location on your computer. To resolve this:
