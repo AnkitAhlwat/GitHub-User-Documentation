@@ -1,6 +1,6 @@
 # Working with Git 
 
-Git is a opened source version control system used alongside GitHub. This section will help you work with Git and manage your code on GitHub. You will learn the most commonly used Git commands and when to use them. Apart from step 1, this section is not intended to be followed in chronological order, rather, it should be referred to for individual commands only.
+Git is a opened source version control system used alongside GitHub. This section will help you work with Git and manage your code on GitHub. You will learn the most commonly used Git commands and when to use them. Apart from the first step, this section is not intended to be followed in chronological order, rather, it should be referred to for individual commands only.
 
 !!! warning "Warning"
 
