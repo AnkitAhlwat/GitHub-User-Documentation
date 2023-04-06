@@ -1,6 +1,6 @@
 
 
-Welcome to the Github User Documentation guide. This guide is intended for new programmers that require a quick start guide on how to begin using Github and Git.
+Welcome to the Github User Documentation guide. This documentation is intended for new programmers that require a quick start guide on Github and Git.
 
 The following topics are covered:
 
