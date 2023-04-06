@@ -76,14 +76,14 @@ When we clone a repository we make a identical copy, including all folders, from
     ![Alt text](./images/gitclone.png)
 
     As you can see all folders and files have been cloned into the "Giga" folder:
-    
+
     ![Alt text](./images/gigagit.png)
 
 ##  Stage and commit changes
 
-Once we make a change to the code in our cloned repository. In order for these changes to be reflected on github we have to "push them". 
+After we make a change to the code in our repository before these changes are reflected on Github we have to "push them". 
 
- Before pushing your changes you must first stage them. This is useful as you can specify which files you wish to commit. The "." syntax includes all changes.
+Before pushing your changes you must first stage them. This is useful as you can specify which files you wish to commit. The "." syntax includes all changes.
 
 1. Stage the changes:
 
