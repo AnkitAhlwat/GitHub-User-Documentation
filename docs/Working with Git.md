@@ -1,9 +1,10 @@
 # Working with Git 
 
-Git is a opened source version control system used alongside GitHub. This section will help you work with Git and manage your code on GitHub. You will learn the most commonly used Git commands and when to use them.
+Git is a opened source version control system used alongside GitHub. This section will help you work with Git and manage your code on GitHub. You will learn the most commonly used Git commands and when to use them. This section is not intended intended to be followed in chronological order, rather it should be referred to for individual commands only.
 
 !!! warning "Warning"
-All commands in this section are run in the terminal window. Make sure you are in your project folder when running any commands. You can use CD to change directories. 
+
+    All commands in this section are run in the terminal window. Make sure you are in your project folder when running any commands. You can use CD to change directories. 
 
 ## Install and configure Git
 
@@ -16,27 +17,34 @@ All commands in this section are run in the terminal window. Make sure you are i
     ```
 
 !!! tip "Tip"
-Make sure to replace "Your Name" and "your.email@example.com" with your actual name and email address. This ensures that your github looks professional and it is easy for others to find your work.
+
+    Make sure to replace "Your Name" and "your.email@example.com" with your actual name and email address. This ensures that your github looks professional and it is easy for others to find your work.
 
 ## Clone a repository locally
 
-When we clone a repository we make a identical copy, including all folders and every version of files, from the data stored on Github at the time of cloning. There are several ways to do this, the easiest is by copying the URL. 
+When we clone a repository we make a identical copy, including all folders, from the data stored on Github at the time of cloning. There are several ways to do this, the easiest is by copying the URL. 
 
 1. Navigate to the GitHub repository you want to clone.
-- Click on the **Code** button and copy the URL.
-- Open a terminal and navigate to your desired location.
-- Run the following command:
+2. Click on the **Code** button and copy the URL.
+
+    ![Alt text](./images/clone.png)
+
+3. Open the terminal and navigate to the location you wish to clone your repository.
+
+4. Run the following command:
 
     ```git
     git clone <repository_url>
     ```
 
-By default the clone command will save the repository in a local folder on your computer which has the same name as the original repository you cloned. 
+    By default the clone command will save the repository in a local folder under C:\Users\"your name"
 
-5. To specify a folder name you can add it after the URL.
+    To specify a folder name you can add it after the URL.
+
+5. Run the following command:
 
     ```git
-    git clone <repo> <directory>
+    git clone <repo> <folder name>
     ```
 
 ##  Create and switch branches
