@@ -1,5 +1,6 @@
 site_name: Github User Documentation
-
+repo_url: https://github.com/AnkitAhlwat/GitHub-User-Documentation
+repo_name: AnkitAhlwat/GitHub-User-Documentation
 nav:
     - Home: 'index.md'
     - 'Creating your first repository': 'Creating a repository.md'
@@ -13,6 +14,7 @@ copyright: Copyright &copy; 2023 Ankit Ahlwat and Cadan Glass
 theme:
   name: material
   features: content.code.copy
+
 
 
 
