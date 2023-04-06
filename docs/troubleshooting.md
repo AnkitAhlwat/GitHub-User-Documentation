@@ -1,6 +1,6 @@
 ## Common Errors 
 
-This section will go over some of the common errors you may encounter while following this guide or using Github and Git in general. For more advanced errors we recommend the official Github documentation [**here**](https://docs.github.com/en)
+This section will go over some of the common errors you may encounter while following this guide or using Github and Git in general. For more advanced errors we recommend the official Github documentation [**here**](https://docs.github.com/en).
 
 ## Issue: Repository not found or 404 error
 

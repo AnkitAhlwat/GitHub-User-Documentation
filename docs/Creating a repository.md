@@ -1,5 +1,6 @@
 # Creating a Repository
 
+## Overview
 Creating a GitHub repository is one of the first things you need to do after creating a GitHub account.
 This section is designed to help beginners create and configure a repository.
 

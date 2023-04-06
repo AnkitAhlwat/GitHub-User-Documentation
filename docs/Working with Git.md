@@ -1,5 +1,6 @@
 # Working with Git 
 
+## Overview
 Git is a opened source version control system used alongside GitHub. This section will help you work with Git and manage your code on GitHub. You will learn the most commonly used Git commands and when to use them. Apart from the first step, this section is not intended to be followed in chronological order, rather, it should be referred to for individual commands only.
 
 !!! warning "Warning"
@@ -26,6 +27,15 @@ Otherwise, follow the instructions below:
     git config --global user.email "your.email@example.com"
     ```
 
+3. Check that you successfully configured your account, run:
+
+    ```git
+        git config --global user.name 
+        git config --global user.email 
+        ```
+    
+    ![Alt text](./images/gitname.png)
+
 !!! tip "Tip"
 
     Make sure to replace "Your Name" and "your.email@example.com" with your actual name and email address. This ensures that your github looks professional and it is easy for others to find your work.
@@ -47,11 +57,12 @@ When we clone a repository we make a identical copy, including all folders, from
     git clone <repository_url>
     ```
 
-    By default the clone command will save the repository in a local folder under C:\Users\"your name"
+    By default the clone command will save the repository in a local folder under C:\Users\"your name".
 
-    To specify a folder name you can add it after the URL.
+    ![Alt text](./images/gitsave.png)
 
-5. Run the following command:
+    
+5. Run the following command to specify a folder name 
 
     ```git
     git clone <repo> <folder name>
@@ -61,7 +72,7 @@ When we clone a repository we make a identical copy, including all folders, from
 
 ##  Stage and commit changes
 
-Next we will make a change to the code in our cloned repository. In order for these changes to be reflected on github we have to "push them". 
+Once we make a change to the code in our cloned repository. In order for these changes to be reflected on github we have to "push them". 
 
  Before pushing your changes you must first stage them. This is useful as you can specify which files you wish to commit. The "." syntax includes all changes.
 
@@ -174,7 +185,7 @@ If you make a mistake in your commit it is possible to undo it. The simplest way
 By the end of this section, you will have successfully learned the following:
 
 - How to install and configure Git
-- How to clone a repository and work with branches
+- How to clone a repository 
 - How to stage, commit, and push changes to GitHub
 - How to navigate commit history and resolve conflicts
 

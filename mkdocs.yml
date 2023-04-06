@@ -14,8 +14,9 @@ copyright: Copyright &copy; 2023 Ankit Ahlwat and Cadan Glass
 theme:
   name: material
   features: content.code.copy
-
-
+  features:
+    - navigation.top
+    - navigation.footer
 
 
   palette:
