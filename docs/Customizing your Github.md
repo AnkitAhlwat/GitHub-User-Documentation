@@ -34,7 +34,7 @@ This is one of your simplest, but most effective ways to have a professional loo
 8. Crop your photo if necessary and click "Set new profile picture" to save.
 
 !!! note
-    Steps 1-2 will be re-used to access your profile settings. Anytime steps 1-3 are referred to you can come back here to view them again.
+    Steps 1, 2 and 3 will be re-used to access your profile settings. Anytime these steps are referred to you can come back here to view them again.
 
 ## Edit your profile bio and details
 
@@ -64,7 +64,7 @@ Adding a description to your bio is a good way for others to get to know a bit a
 
 Themes are a great way to stand out among others.
 
-1. Follow steps 1-2 from above to access your profile settings.
+1. Follow steps 1-3 from above to access your profile settings.
 
 2. Click on the "Appearance" button:
 
