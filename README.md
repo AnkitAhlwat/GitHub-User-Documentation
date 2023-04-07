@@ -1,8 +1,8 @@
 ## GitHub User Documentation
 
-You can access our Github user documentation with this [**link**](https://ankitahlwat.github.io/GitHub-User-Documentation/)
+Our documentation has been deployed and is viewable [**here**](https://ankitahlwat.github.io/GitHub-User-Documentation/).
 
-This README file provides an overview of our GitHub user documentation created with materials for MKDocs. You can read more about MKDocs materials [**here**](https://squidfunk.github.io/mkdocs-material/)
+This README file provides an overview of our GitHub user documentation created with materials for MKDocs. You can read more about MKDocs materials [**here**](https://squidfunk.github.io/mkdocs-material/).
 
 Our documentation is aimed at helping new programmers understand and effectively use GitHub and Git for their projects. The documentation covers a range of topics, from setting up a GitHub account and creating repositories, to customizing your Github to managing files and collaborating with team members.
 
